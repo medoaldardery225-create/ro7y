@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To My Rorty ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #090609;
+      color: white;
+      font-family: 'Cairo', sans-serif;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    .background {
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(circle at 20% 20%, #5b173b55, transparent 40%),
+        radial-gradient(circle at 80% 80%, #b51e6340, transparent 40%),
+        #090609;
+      z-index: -2;
+    }
+
+    .hearts {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .heart {
+      position: absolute;
+      bottom: -30px;
+      color: #ff70ad;
+      animation: floatUp linear infinite;
+      opacity: .6;
+    }
+
+    @keyframes floatUp {
+      to {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .container {
+      width: 90%;
+      max-width: 430px;
+      margin: auto;
+      padding: 45px 0;
+    }
+
+    .top {
+      color: #ff8fbe;
+      letter-spacing: 4px;
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: 'Amiri', serif;
+      font-size: 39px;
+      color: #ff8fbe;
+      text-shadow: 0 0 25px #ff3d8b80;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #d9b9c9;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+
+    .photo-frame {
+      padding: 9px;
+      border: 1px solid #ff6ba8;
+      border-radius: 22px;
+      background: #ffffff08;
+      box-shadow: 0 0 35px #ff368a30;
+      margin-bottom: 30px;
+    }
+
+    .photo-frame img {
+      width: 100%;
+      display: block;
+      border-radius: 15px;
+      max-height: 440px;
+      object-fit: cover;
+    }
+
+    .message {
+      background: #ffffff08;
+      border: 1px solid #ffffff15;
+      border-radius: 20px;
+      padding: 25px 18px;
+      margin-bottom: 25px;
+      line-height: 2.2;
+    }
+
+    .message h2 {
+      color: #ff8fbe;
+      font-family: 'Amiri', serif;
+      font-size: 27px;
+      margin-bottom: 12px;
+    }
+
+    .message p {
+      color: #f4dce8;
+      font-size: 15px;
+    }
+
+    .quote {
+      color: #ff91bc;
+      font-family: 'Amiri', serif;
+      font-size: 23px;
+      line-height: 2;
+      margin: 30px 0;
+      text-shadow: 0 0 15px #ff3d8b50;
+    }
+
+    .english {
+      direction: ltr;
+      font-size: 24px;
+      color: #ff8fbe;
+      font-family: cursive;
+      margin: 25px 0;
+      text-shadow: 0 0 20px #ff3d8b;
+    }
+
+    button {
+      border: none;
+      background: linear-gradient(135deg, #ff6ba8, #b51e63);
+      color: white;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-family: 'Cairo', sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      box-shadow: 0 0 25px #ff3d8b50;
+      margin: 10px;
+    }
+
+    button:active {
+      transform: scale(.96);
+    }
+
+    #secret {
+      display: none;
+      margin-top: 25px;
+      animation: appear 1s ease;
+    }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      color: #9e7588;
+      font-size: 12px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="background"></div>
+<div class="hearts" id="hearts"></div>
+
+<div class="container">
+
+  <div class="top">A LITTLE SURPRISE FOR YOU</div>
+
+  <h1>إلى أجمل صدفة في حياتي ❤️</h1>
+
+  <div class="subtitle">
+    مش مجرد صفحة... دي حتة من قلبي ليكي.
+  </div>
+
+  <div class="photo-frame">
+    <img src="photo.jpg" alt="Our special memory">
+  </div>
+
+  <div class="message">
+    <h2>عارفة إنتي بالنسبالي إيه؟</h2>
+
+    <p>
+      إنتي مش مجرد حد بحبه وخلاص...
+      إنتي الشخص اللي وجوده بيخلّي كل حاجة أهون،
+      واللي مجرد رسالة منه ممكن تغيّر يوم كامل.
+      <br><br>
+      أنا مش محتاج الدنيا تبقى مثالية،
+      أنا بس محتاج أفضل ألاقيكي فيها.
+      <br><br>
+      ولو رجع بيا الزمن ألف مرة،
+      هختار أعرفك وأقرب منك وأحبك
+      في كل مرة من أول وجديد.
+    </p>
+  </div>
+
+  <div class="quote">
+    "وسط كل الناس، قلبي اختار عينك،
+    ووسط كل الحكايات، نفسي حكايتي تكمل معاكي."
+  </div>
+
+  <div class="message">
+    <h2>وفي حاجة عايزك تعرفيها...</h2>
+
+    <p>
+      أنا مش بوعدك إن كل الأيام هتبقى سهلة،
+      بس بوعدك إني أقدّر وجودك،
+      وأسمعك، وأحاول أفهمك،
+      وأفضل أختار إننا نحل أي حاجة سوا.
+      <br><br>
+      إنتي تستاهلي حب يطمن قلبك،
+      مش حب يخليكي تسألي كل يوم عن مكانتك.
+    </p>
+  </div>
+
+  <div class="english">
+    You're my favorite person, always. ♡
+  </div>
+
+  <button onclick="showSecret()">
+    دوسي هنا يا روح قلبي 💗
+  </button>
+
+  <div id="secret">
+    <div class="message">
+      <h2>آخر حاجة... ❤️</h2>
+      <p>
+        بحب تفاصيلك، ضحكتك، كلامك،
+        وحتى الحاجات الصغيرة اللي يمكن إنتي
+        مش واخدة بالك إنها مميزة بالنسبالي.
+        <br><br>
+        ومهما كتبت، الكلام عمره ما هيكفي
+        يوصف إنتي غالية عندي قد إيه.
+        <br><br>
+        <strong>بحبك يا Rorty ❤️</strong>
+      </p>
+    </div>
+
+    <div class="english">
+      I love my Rorty ❤️
+    </div>
+  </div>
+
+  <button onclick="playMusic()" id="musicBtn">
+    شغّلي الأغنية بتاعتنا 🎵
+  </button>
+
+  <audio id="music" loop>
+    <source src="ma3aya.mp3" type="audio/mpeg">
+  </audio>
+
+  <footer>
+    Made with love, just for you ♡
+  </footer>
+
+</div>
+
+<script>
+  function showSecret() {
+    document.getElementById("secret").style.display = "block";
+  }
+
+  function playMusic() {
+    const music = document.getElementById("music");
+    const btn = document.getElementById("musicBtn");
+
+    if (music.paused) {
+      music.play().then(() => {
+        btn.innerHTML = "إيقاف الأغنية ⏸️";
+      }).catch(() => {
+        alert("حاولي تضغطي تاني لتشغيل الأغنية ❤️");
+      });
+    } else {
+      music.pause();
+      btn.innerHTML = "شغّلي الأغنية بتاعتنا 🎵";
+    }
+  }
+
+  const hearts = document.getElementById("hearts");
+
+  function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "♥";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (12 + Math.random() * 20) + "px";
+    heart.style.animationDuration = (5 + Math.random() * 7) + "s";
+
+    hearts.appendChild(heart);
+
+    setTimeout(() => heart.remove(), 12000);
+  }
+
+  setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>
